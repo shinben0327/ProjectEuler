@@ -18,12 +18,6 @@ def factorial(x):
     return result
 
 
-def new_factorial(x):
-    if x == 1:
-        return 1
-    return x * new_factorial(x-1)
-
-
 def npr(n, r):
     return int(factorial(n)/factorial(n-r))
 

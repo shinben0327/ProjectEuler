@@ -12,3 +12,5 @@ while len(str(fibonacci[-1])) < 1000:
     next_term = fibonacci[-1] + fibonacci[-2]
     fibonacci.append(next_term)
 print(len(fibonacci))
+
+# answer = 4782
